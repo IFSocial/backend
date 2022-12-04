@@ -14,7 +14,7 @@ Esse projeto consiste em um estudo e aprofundamento prático de NestJs, esse pro
 Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
 
 ```shell
-cd Back-End-Go_semadec
+cd backend
 
 npm install
 ```
