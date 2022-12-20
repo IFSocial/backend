@@ -6,6 +6,9 @@ import { AuthModule } from './auth/auth.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { NoticiasModule } from './noticias/noticias.module';
 import { ModalidadesModule } from './modalidades/modalidades.module';
+import { EsportesModule } from './esportes/esportes.module';
+import { EquipesModule } from './equipes/equipes.module';
+import { HorariosModule } from './horarios/horarios.module';
 
 @Module({
   imports: [
@@ -14,6 +17,9 @@ import { ModalidadesModule } from './modalidades/modalidades.module';
     MongooseModule.forRoot(process.env.MONGO_URI),
     NoticiasModule,
     ModalidadesModule,
+    EsportesModule,
+    EquipesModule,
+    HorariosModule,
   ],
   controllers: [AppController],
   providers: [AppService],
