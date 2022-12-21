@@ -1,19 +1,19 @@
 import * as mongoose from 'mongoose';
 
-export const EquipesSchema = new mongoose.Schema({
-  nomeTime: {
+export const HorariosSchema = new mongoose.Schema({
+  jogos: {
     type: String,
   },
-  nomeParticipantes: {
+  partidaVS: {
     type: String,
   },
-  matricula: {
+  data: {
     type: String,
   },
-  sexo: {
+  horarios: {
     type: String,
   },
-  turma: {
+  rodada: {
     type: String,
   },
 });
