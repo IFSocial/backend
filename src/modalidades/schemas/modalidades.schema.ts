@@ -1,10 +1,10 @@
 import * as mongoose from 'mongoose';
 
 export const ModalidadesSchema = new mongoose.Schema({
-  modalidade: {
+  imagem: {
     type: String,
   },
-  sexo: {
+  modalidade: {
     type: String,
   },
 });
