@@ -17,6 +17,9 @@ export const UsersSchema = new mongoose.Schema({
   password: {
     type: String,
   },
+  roles: {
+    type: String,
+  },
 });
 
 UsersSchema.pre('save', async function (next: mongoose.HookNextFunction) {

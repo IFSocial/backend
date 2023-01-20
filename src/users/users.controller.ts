@@ -12,12 +12,15 @@ import { SignupDto } from './dto/signup.dto';
 import { User } from './models/users.model';
 import { SigninDto } from './dto/signin.dto';
 import { AuthGuard } from '@nestjs/passport';
+import { Role } from './models/role.enum';
+import { Roles } from './roles.decorador';
 
 @Controller('users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Post('signup')
+  @Roles(Role.Admin)
   @HttpCode(HttpStatus.CREATED)
   public async signup(@Body() signupDto: SignupDto): Promise<User> {
     return this.usersService.signup(signupDto);
