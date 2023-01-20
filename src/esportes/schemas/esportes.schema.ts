@@ -7,4 +7,7 @@ export const EsportesSchema = new mongoose.Schema({
   Imagem: {
     type: String,
   },
+  modalidade: {
+    type: String,
+  },
 });

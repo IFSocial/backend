@@ -8,4 +8,8 @@ export class BaseEsporteDto {
   @IsNotEmpty()
   @IsString()
   Imagem: string;
+
+  @IsNotEmpty()
+  @IsString()
+  modalidade: string;
 }
