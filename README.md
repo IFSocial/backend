@@ -19,4 +19,4 @@ cd backend
 npm install
 ```
 
-Após essa instalação execute a aplicação com o comando `npm run start:dev`. O servidor estará em execução no endereço `http://localhost:3000`.
+Após essa instalação execute a aplicação com o comando `npm start`. O servidor estará em execução no endereço `http://localhost:3000`.

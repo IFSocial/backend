@@ -9,6 +9,7 @@ import { ModalidadesModule } from './modalidades/modalidades.module';
 import { EsportesModule } from './esportes/esportes.module';
 import { EquipesModule } from './equipes/equipes.module';
 import { HorariosModule } from './horarios/horarios.module';
+import { DataEventoModule } from './data-evento/data-evento.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { HorariosModule } from './horarios/horarios.module';
     EsportesModule,
     EquipesModule,
     HorariosModule,
+    DataEventoModule,
   ],
   controllers: [AppController],
   providers: [AppService],
