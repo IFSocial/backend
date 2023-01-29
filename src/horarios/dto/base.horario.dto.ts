@@ -19,4 +19,8 @@ export class BaseHorarioDto {
   @IsNotEmpty()
   @IsString()
   rodada: string;
+
+  @IsNotEmpty()
+  @IsString()
+  time: string;
 }

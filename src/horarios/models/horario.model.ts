@@ -6,4 +6,5 @@ export interface Horarios extends Document {
   data: string;
   horarios: string;
   rodada: string;
+  time: string;
 }

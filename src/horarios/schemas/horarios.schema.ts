@@ -16,4 +16,7 @@ export const HorariosSchema = new mongoose.Schema({
   rodada: {
     type: String,
   },
+  times: {
+    type: String,
+  },
 });
