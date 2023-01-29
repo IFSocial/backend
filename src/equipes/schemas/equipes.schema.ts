@@ -10,7 +10,7 @@ export const EquipesSchema = new mongoose.Schema({
   matricula: {
     type: [String],
   },
-  sexo: {
+  categoria: {
     type: String,
   },
   turma: {

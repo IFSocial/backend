@@ -6,15 +6,14 @@ export class BaseEquipeDto {
   nomeTime: string;
 
   @IsNotEmpty()
-  @IsString()
-  nomeParticipantes: [string];
+  nomeParticipantes: string[];
 
   @IsNotEmpty()
-  Matricula: [string];
+  matricula: string[];
 
   @IsNotEmpty()
   @IsString()
-  sexo: string;
+  categoria: string;
 
   @IsNotEmpty()
   @IsString()
