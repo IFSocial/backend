@@ -10,4 +10,7 @@ export const EsportesSchema = new mongoose.Schema({
   modalidade: {
     type: String,
   },
+  multiPlayers: {
+    type: Boolean,
+  },
 });

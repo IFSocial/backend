@@ -12,4 +12,6 @@ export class BaseEsporteDto {
   @IsNotEmpty()
   @IsString()
   modalidade: string;
+
+  multiPlayers: boolean;
 }
