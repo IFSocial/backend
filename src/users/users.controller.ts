@@ -34,6 +34,7 @@ export class UsersController {
     sexo: string;
     jwtToken: string;
     email: string;
+    roles: string;
   }> {
     return this.usersService.signin(signinDto);
   }

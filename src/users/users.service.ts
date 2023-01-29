@@ -26,6 +26,7 @@ export class UsersService {
     sexo: string;
     jwtToken: string;
     email: string;
+    roles: string;
   }> {
     const user = await this.findByEmail(signinDto.email);
     const match = await this.checkPassword(signinDto.password, user);
@@ -42,6 +43,7 @@ export class UsersService {
       sexo: user.sexo,
       jwtToken,
       email: user.email,
+      roles: user.roles,
     };
   }
 
