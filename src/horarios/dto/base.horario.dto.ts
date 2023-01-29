@@ -22,5 +22,5 @@ export class BaseHorarioDto {
 
   @IsNotEmpty()
   @IsString()
-  time: string;
+  times: string;
 }
