@@ -7,10 +7,10 @@ export class BaseEquipeDto {
 
   @IsNotEmpty()
   @IsString()
-  nomeParticipantes: string;
+  nomeParticipantes: [string];
 
   @IsNotEmpty()
-  Matricula: string;
+  Matricula: [string];
 
   @IsNotEmpty()
   @IsString()
@@ -19,4 +19,8 @@ export class BaseEquipeDto {
   @IsNotEmpty()
   @IsString()
   Turma: string;
+
+  @IsNotEmpty()
+  @IsString()
+  esporte: string;
 }

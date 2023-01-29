@@ -5,15 +5,18 @@ export const EquipesSchema = new mongoose.Schema({
     type: String,
   },
   nomeParticipantes: {
-    type: String,
+    type: [String],
   },
   matricula: {
-    type: String,
+    type: [String],
   },
   sexo: {
     type: String,
   },
   turma: {
+    type: String,
+  },
+  esporte: {
     type: String,
   },
 });
